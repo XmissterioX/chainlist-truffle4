@@ -1,5 +1,6 @@
 # Truffle
 build
+.env
 
 # Node
 node_modules

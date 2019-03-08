@@ -8,14 +8,14 @@
       "type": "constructor"
     }
   ],
-  "bytecode": "0x60606040523415600e57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550603580605b6000396000f3006060604052600080fd00a165627a7a72305820f6fccb20f4b30e4b02b690770f4486144388536d36cfc6d3af029aaeb11d855a0029",
-  "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820f6fccb20f4b30e4b02b690770f4486144388536d36cfc6d3af029aaeb11d855a0029",
+  "bytecode": "0x60606040523415600e57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550603580605b6000396000f3006060604052600080fd00a165627a7a723058205850176fadc0df41a93f53cec1158095d3a503b764a18e994b6367f50482c9a10029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a723058205850176fadc0df41a93f53cec1158095d3a503b764a18e994b6367f50482c9a10029",
   "sourceMap": "26:220:2:-;;;189:55;;;;;;;;229:10;221:5;;:18;;;;;;;;;;;;;;;;;;26:220;;;;;;",
   "deployedSourceMap": "26:220:2:-;;;;;",
   "source": "pragma solidity ^0.4.18;\n\ncontract Ownable {\n  // state variables\n  address owner;\n\n  // modifiers\n  modifier onlyOwner() {\n    require(msg.sender == owner);\n    _;\n  }\n\n  // constructor\n  function Ownable() public {\n    owner = msg.sender;\n  }\n}\n",
-  "sourcePath": "E:\\TurnKey\\PrivateNode\\ChainSkills\\Training\\ChainList\\contracts\\Ownable.sol",
+  "sourcePath": "E:\\TurnKey\\PrivateNode\\ChainSkills\\Training\\ChainListInfura\\contracts\\Ownable.sol",
   "ast": {
-    "absolutePath": "/E/TurnKey/PrivateNode/ChainSkills/Training/ChainList/contracts/Ownable.sol",
+    "absolutePath": "/E/TurnKey/PrivateNode/ChainSkills/Training/ChainListInfura/contracts/Ownable.sol",
     "exportedSymbols": {
       "Ownable": [
         345
@@ -305,7 +305,7 @@
     "src": "0:247:2"
   },
   "legacyAST": {
-    "absolutePath": "/E/TurnKey/PrivateNode/ChainSkills/Training/ChainList/contracts/Ownable.sol",
+    "absolutePath": "/E/TurnKey/PrivateNode/ChainSkills/Training/ChainListInfura/contracts/Ownable.sol",
     "exportedSymbols": {
       "Ownable": [
         345
@@ -600,5 +600,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2019-03-07T09:56:44.313Z"
+  "updatedAt": "2019-03-08T11:32:05.054Z"
 }
